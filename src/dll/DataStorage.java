@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DataStorage {
-    private static final String FILE_PATH = "/Users/fariza/eclipse-workspace/Telepuziki/src/data/user.txt"; 
+    private static final String FILE_PATH = "/Users/maksat/git/OOP_FINAL_PROJECT5/src/data/user.txt"; 
 
     private List<User> users;
 

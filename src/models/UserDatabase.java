@@ -6,7 +6,7 @@ import java.util.List;
 
 public class UserDatabase {
     private static List<User> users = new ArrayList<>();
-    private static final String FILE_NAME = "/Users/fariza/eclipse-workspace/Telepuziki/src/data/user.txt";
+    private static final String FILE_NAME = "/Users/maksat/git/OOP_FINAL_PROJECT5/src/data/user.txt";
 
     // Метод для добавления пользователя в базу
     public static void addUser(User user) {

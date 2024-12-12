@@ -8,8 +8,8 @@ public class TestReaderWriter {
 
     public static void main(String[] args) {
         // Создаем объект Teacher
-        User teacher = new Teacher("a_fariza", "1234");
-        String filePath = "/Users/fariza/eclipse-workspace/Telepuziki/src/data/teacher.txt";
+        User teacher = new Teacher("max", "54321");
+        String filePath = "/Users/maksat/git/OOP_FINAL_PROJECT5/src/data/teacher.txt";
 
         // Тестируем сериализацию
         boolean isSerialized = ReaderWriter.serialize(teacher, filePath);

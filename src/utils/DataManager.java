@@ -7,7 +7,7 @@ import java.util.List;
 
 public class DataManager {
 
-    private static final String FILE_NAME = "/Users/fariza/eclipse-workspace/Telepuziki/src/data/user.txt";
+    private static final String FILE_NAME = "/Users/maksat/git/OOP_FINAL_PROJECT5/src/data/user.txt";
 
     // Сохраняем пользователей в файл
     public static void saveUsers(List<User> users) {

@@ -316,7 +316,7 @@ public class Main{
         loginButton.addActionListener(e -> {
             boolean try_again = true;
             try {
-                BufferedReader reader = new BufferedReader(new FileReader("login_password.txt"));
+                BufferedReader reader = new BufferedReader(new FileReader("/Users/maksat/git/OOP_FINAL_PROJECT5/Final_Project/login_password.txt"));
                 String line;
 
                 while ((line = reader.readLine()) != null) {

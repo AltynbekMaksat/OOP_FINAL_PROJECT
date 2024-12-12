@@ -20,32 +20,32 @@ public class DBContext {
 
     // Метод для сохранения преподавателей в файл
     public static boolean saveTeachers() {
-        return serialize(teacher, "/Users/fariza/eclipse-workspace/Telepuziki/src/data/teacher.txt");
+        return serialize(teacher, "/Users/maksat/git/OOP_FINAL_PROJECT5/src/data/teacher.txt");
     }
 
     // Метод для сохранения студентов в файл
     public static boolean saveStudents() {
-        return serialize(student, "/Users/fariza/eclipse-workspace/Telepuziki/src/data/student.txt");
+        return serialize(student, "/Users/maksat/git/OOP_FINAL_PROJECT5/src/data/student.txt");
     }
 
     // Метод для сохранения менеджеров в файл
     public static boolean saveManagers() {
-        return serialize(manager, "/Users/fariza/eclipse-workspace/Telepuziki/src/data/manager.txt");
+        return serialize(manager, "/Users/maksat/git/OOP_FINAL_PROJECT5/src/data/manager.txt");
     }
 
     // Метод для получения преподавателей
     public static Vector<Teacher> getTeachers() {
-        return deserialize("/Users/fariza/eclipse-workspace/Telepuziki/src/data/teacher.txt");
+        return deserialize("/Users/maksat/git/OOP_FINAL_PROJECT5/src/data/teacher.txt");
     }
 
     // Метод для получения студентов
     public static Vector<Student> getStudents() {
-        return deserialize("/Users/fariza/eclipse-workspace/Telepuziki/src/data/student.txt");
+        return deserialize("/Users/maksat/git/OOP_FINAL_PROJECT5/src/data/student.txt");
     }
 
     // Метод для получения менеджеров
     public static Vector<Manager> getManagers() {
-        return deserialize("/Users/fariza/eclipse-workspace/Telepuziki/src/data/manager.txt");
+        return deserialize("/Users/maksat/git/OOP_FINAL_PROJECT5/src/data/manager.txt");
     }
 
     // Метод для сериализации объектов
